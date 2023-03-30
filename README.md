@@ -7,21 +7,18 @@
     2. If you get warning from Windows Defender, click - "More Info" > "Run anyway"
     Enjoy!
 
-<h4>To download music:</h4>
+<h4>Linux users:</h4>
 
-    1. Run the "main.py" file.
-    2. Enter the name of the song you wish to download.
-    3. Click "Download" or press "Enter".
+    1.install requirements.txt:
+        >> pip install -r requirements.txt
+    2. Run the "main.py" file.
+    
 
 <h4>To change the download directory (optional):</h4>
 
     1. Click "Browse".
     2. Select the directory where you want to save the downloaded files.
 
-
-<h4>Notes:</h4>
-
-    .exe file for Windows users will be added soon.
 
 <h4>Version 0.23 - Change Log:</h4>
 
