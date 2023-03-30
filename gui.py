@@ -20,7 +20,7 @@ class Gui:
         self.user_input.bind("<FocusOut>", self.set_placeholder)
 
         # Version
-        self.version = tkinter.Label(self.main_window, text="Version: 0.19")
+        self.version = tkinter.Label(self.main_window, text="Version: 0.20")
         self.version.pack(side="right", anchor="se")
 
     def window_components(self, download_command, browse_command):
