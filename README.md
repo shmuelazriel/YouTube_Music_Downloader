@@ -1,5 +1,12 @@
 <h1> YouTube Music Downloader: </h1><br>
 
+<h4>Windows users:</h4>
+
+    1. Open Windows folder.
+    1. Run the "YT_Music_Downloader.exe" file.
+    2. If you get warning from Windows Defender, click - "More Info" > "Run anyway"
+    Enjoy!
+
 <h4>To download music:</h4>
 
     1. Run the "main.py" file.
@@ -16,11 +23,11 @@
 
     .exe file for Windows users will be added soon.
 
-Version 0.19 - Change Log:
+<h4>Version 0.23 - Change Log:</h4>
 
-    Refactored code for improved organization and readability using classes.
-    No changes to functionality were made, only code optimization.
+    Windows folder has been added with .exe file
     
+<br>
 
 This is the first software I have ever created! :)
 
