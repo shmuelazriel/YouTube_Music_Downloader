@@ -1,5 +1,8 @@
 <h1> YouTube Music Downloader: </h1><br>
 
+This is the first software I have ever created! :)
+
+
 <h4>Windows users:</h4>
 
     1. Open Windows folder.
@@ -26,6 +29,5 @@
     
 <br>
 
-This is the first software I have ever created! :)
 
 <h4>Shmuel Azriel</h4>
