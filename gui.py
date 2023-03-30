@@ -12,8 +12,12 @@ class Gui:
         self.label.pack(anchor="center")
 
         # User input:
-        self.user_input = tkinter.Entry()
+        self.placeholder = "Happy Birthday!"
+        self.user_input = tkinter.Entry(fg="gray", insertwidth=1, insertofftime=500)
         self.user_input.pack()
+        self.user_input.insert(0, self.placeholder)
+        self.user_input.bind("<FocusIn>", self.clear_placeholder)
+        self.user_input.bind("<FocusOut>", self.set_placeholder)
 
         # Version
         self.version = tkinter.Label(self.main_window, text="Version: 0.19")
@@ -27,6 +31,16 @@ class Gui:
         # Browse button:
         browse_button = tkinter.Button(text="Browse", command=browse_command)
         browse_button.pack(before=download_button)
+
+    def clear_placeholder(self, event):
+        if self.user_input.get() == self.placeholder:
+            self.user_input.delete(0, tkinter.END)
+            self.user_input.config(fg="black")
+
+    def set_placeholder(self, event):
+        if self.user_input.get() == "":
+            self.user_input.insert(0, self.placeholder)
+            self.user_input.config(fg="gray")
 
     def start(self):
         self.main_window.mainloop()
